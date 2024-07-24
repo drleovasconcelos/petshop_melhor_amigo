@@ -30,11 +30,41 @@ header p {
     margin: 0; /* Remove margens padrão */
     /* text-transform: uppercase; Transforma o texto em maiúsculas */
 }
+
 .container {
     width: 80%;
     margin: auto;
     padding: 20px;
     font-size: 30px;
+}
+.discount-banner {
+    background-color: #ffcc00; /* cor de fundo para destacar o banner */
+    color: #333; /* cor do texto */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.discount-banner h2 {
+    margin: 0;
+    font-size: 2em;
+}
+.discount-banner p {
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+}
+.discount-banner a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333; /* cor de fundo do botão */
+    color: #fff; /* cor do texto do botão */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.discount-banner a:hover {
+    background-color: #555; /* cor do botão ao passar o mouse */
 }
 .banner {
     text-align: center;
